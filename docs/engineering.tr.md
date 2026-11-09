@@ -32,3 +32,21 @@ Dokunarak uçma ve platform sahneleri, engel çiftlerini ve platformları nesne 
 Öğretici, yapılandırılabilir adımlardan oluşuyor. Bir adım diyalog gösterebiliyor, bir kontrolü vurgulayabiliyor veya oyun içi bir olayı bekleyebiliyor. Oyuncu ilgili eylemi yapana kadar yönlendirme görünür kalıyor. Tamamlanan adımlar yerel olarak kaydediliyor.
 
 Diyalog yerleşimi, vurgulanan kontrolün ekrandaki konumunu ve boyutunu kullanıyor. Bu değişiklik, tablette diyalog kartının oyuncudan seçmesi istenen mama tarifini kapattığı bir durumu giderdi. Yerleşim değişiklikten sonra telefon ve tablet görünümlerinde kontrol edildi.
+
+## Kedi durumunu oturumlar arasında korumak
+
+Oyuncu başka bir uygulamaya geçtiğinde bakım döngüsünün tutarlı kalması gerekiyor. Catty, arka plana geçerken kedinin ihtiyaçlarını kaydediyor ve durumu geri yüklerken geçen süreyi hesaba katıyor. Mağaza, envanter ve bakım etkinlikleri sabun ve kum gibi malzemelerin kalan kullanım sayısını aynı kayıttan okuyor. Böylece mağaza bir paket ekleyebiliyor, bakım etkinliği ise paketten bir kullanım harcıyor.
+
+Odaya özel sandıklar, oda özelleştirmesini ilerleme sistemine bağlıyor. Sandık tanımları her odanın ödüllerini belirliyor ve açılış animasyonu seçilen ödülü gösteriyor. Editör kontrolleri oda ödüllerini ve ödül seçimi davranışını kapsıyor.
+
+## Mevcut Unity arayüzünü yerelleştirmek
+
+Catty İngilizce, Türkçe, Almanca, İspanyolca ve Fransızcayı destekliyor. Arayüz etiketleri çeviri tablolarından geliyor. Görev ödülü etiketleri gibi oyun sırasında oluşturulan metinler yerelleştirilmiş şablonları kullanıyor. Taşıma aracı, sahne ve prefablardaki değişiklikleri uygulamadan önce önizleyerek mevcut bağlantıları ve çevirileri gözden geçirmeyi sağlıyor. Doğrulama kontrolleri dil tablolarından metin okumayı, prefab kalıtımını ve oyun sırasında dil değiştirmeyi kapsıyor.
+
+## Bağlantı değişikliklerini ve ödüllü reklamları yönetmek
+
+Bağlantı takibi, internet kesildiğinde veya geri geldiğinde mini oyun seçim arayüzünü güncelliyor. Ödüllü reklamların oyunu duraklatmak, sonucu işlemek ve oyuna dönmek için ayrı bir akışı var. Bu akış, onaylanmış ödülü reklamın kapatılması ya da yükleme veya gösterim hatasından ayırıyor. Enerji yenileme ve mini oyun ödülünü katlama gibi isteğe bağlı işlemler bu ayrımı kullanıyor.
+
+## Android için mevsimsel içeriği paketlemek
+
+Etkin mevsimsel tema birden fazla sahne, prefab ve animasyonun görsellerini değiştiriyor. Tüm değişimleri oyun çalışırken çözmek, yedek görselleri de paket bağımlılığı olarak tutacaktı. Başlangıçta seçilen tema için derleme adımı görsel referanslarını önceden çözüyor, çalışma anında hâlâ gereken eşleştirmeleri koruyor ve artık kullanılmayan sprite atlaslarını paket dışında bırakıyor. Araç, değişikliklerden önce düzenlenebilir varlıkları yedekliyor ve derleme sonrasında veya kurtarma sırasında geri yüklüyor.

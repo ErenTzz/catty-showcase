@@ -57,12 +57,17 @@ The mini-game clips were captured in Unity with automated inputs. All MP4 clips 
 
 | Area | What I built |
 | --- | --- |
-| Touch gameplay | A staged bath interaction that tracks cleaning coverage separately from its visual feedback. Each stage accepts its matching tool, and a completed session can grant its reward once. |
-| Arcade sessions | Separate scenes for tap-to-fly, platforming, item collection, and Paw Tap. Scrolling obstacles and platforms use object pools to reuse spawned objects. |
-| Progression | Mini-game results feed shared coin and XP progression. Local saves preserve pet state, supplies, and onboarding progress between sessions. |
-| Onboarding and mobile UI | Configurable tutorial steps wait for gameplay events before advancing. Contextual highlights and dialogue guide the player through the relevant controls, with layout checks on phone and tablet aspect ratios. |
+| Touch gameplay | A three-stage bath session that measures cleaning coverage independently of the effects and allows one reward claim after completion. |
+| Arcade mechanics | Four mini-games with distinct controls and scoring. Scrolling obstacles, platforms, and Paw Tap targets are reused through object pools. |
+| Persistent pet simulation | The game saves pet needs when it goes into the background and accounts for elapsed time when the player returns. Soap and litter have persistent usage counts shared by the shop, inventory, and care activities. |
+| Progression and economy | Mini-game coins and XP feed shared progression. Missions, daily rewards, and room-specific chests give players different ways to earn items and customize their pet's home. |
+| Onboarding and adaptive UI | Configurable steps advance in response to gameplay events. Dialogue placement uses the highlighted control's bounds to keep it accessible on phones and tablets. |
+| Localization | Unity Localization supports English, Turkish, German, Spanish, and French. Editor tooling migrates existing UI text into tables, and Play Mode checks cover both fixed labels and text generated at runtime. |
+| Mobile lifecycle and rewarded ads | Connectivity changes update the game selection flow. The rewarded-ad flow handles pause and resume, and distinguishes a confirmed reward from dismissal or failure. |
+| Seasonal content and build size | A Unity build step bakes the active seasonal artwork into scenes, prefabs, and animation references, excludes unused sprite atlases, and restores editable assets after the build. |
+| Validation and release workflow | Unity Editor checks cover tutorial content, localization, and chest behavior. A Git pre-commit hook blocks generated files and local tooling artifacts from being committed. |
 
-[**Read the engineering case study**](docs/engineering.md) for the decisions behind the bath interaction, reward flow, and tutorial.
+[**Read the engineering case study**](docs/engineering.md) for the decisions behind these systems.
 
 ## More from the game
 

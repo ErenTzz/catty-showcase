@@ -57,12 +57,17 @@ Mini oyun klipleri Unity’de otomatik girdilerle kaydedildi. Tüm MP4 videolar 
 
 | Alan | Geliştirdiğim sistem |
 | --- | --- |
-| Dokunmatik oynanış | Temizlenen alanı görsel efektlerden ayrı takip eden çok aşamalı banyo sistemi. Her aşama kendi aracını kabul ediyor ve tamamlanan bir oturum bir kez ödül verebiliyor. |
-| Arcade mini oyunları | Dokunarak uçma, platform, eşya toplama ve Paw Tap için ayrı sahneler. Kayan engeller ve platformlar nesne havuzlarından yeniden kullanılıyor. |
-| İlerleme | Mini oyun sonuçları ortak altın ve deneyim sistemini besliyor. Yerel kayıtlar kedinin durumunu, bakım malzemelerini ve öğretici ilerlemesini oturumlar arasında saklıyor. |
-| Öğretici ve mobil arayüz | Yapılandırılabilir öğretici adımları, ilerlemeden önce ilgili oyun olayını bekliyor. Vurgular ve diyaloglar oyuncuyu ilgili kontrollere yönlendiriyor. Yerleşim telefon ve tablet ekran oranlarında kontrol edildi. |
+| Dokunmatik oynanış | Temizlenen alanı görsel efektlerden bağımsız ölçen üç aşamalı banyo sistemi. Tamamlama ödülü oturum başına bir kez alınabiliyor. |
+| Arcade mekanikleri | Ayrı kontrol ve skor kurallarına sahip dört mini oyun. Kayan engeller, platformlar ve Paw Tap hedefleri nesne havuzlarından yeniden kullanılıyor. |
+| Kalıcı evcil hayvan simülasyonu | Oyun arka plana geçtiğinde kedinin ihtiyaçları kaydediliyor, oyuncu döndüğünde geçen süre hesaba katılıyor. Sabun ve kumun kalan kullanım hakları mağaza, envanter ve bakım etkinlikleri arasında ortak tutuluyor. |
+| İlerleme ve oyun ekonomisi | Mini oyunlardan gelen altın ve deneyim puanı ortak ilerleme sistemine aktarılıyor. Görevler, günlük ödüller ve odaya özel sandıklar eşya kazanmak ve odaları özelleştirmek için farklı yollar sunuyor. |
+| Öğretici ve uyarlanabilir arayüz | Yapılandırılabilir adımlar oyun içi olaylarla ilerliyor. Diyalog yerleşimi, vurgulanan kontrolün konumunu ve boyutunu kullanarak telefon ve tablette erişilebilir kalmasını sağlıyor. |
+| Yerelleştirme | Unity Localization ile İngilizce, Türkçe, Almanca, İspanyolca ve Fransızca desteği. Editör araçları mevcut arayüz metinlerini çeviri tablolarına taşıyor. Play Mode kontrolleri sabit etiketleri ve oyun sırasında üretilen metinleri kapsıyor. |
+| Mobil yaşam döngüsü ve ödüllü reklamlar | Bağlantı durumu değiştiğinde mini oyun seçim akışı güncelleniyor. Ödüllü reklam akışı oyunu duraklatıp devam ettiriyor ve onaylanan ödülü reklamın kapatılması veya hata durumundan ayrı işliyor. |
+| Mevsimsel içerik ve paket boyutu | Unity derleme adımı etkin temanın görsellerini sahne, prefab ve animasyon referanslarına işliyor. Kullanılmayan sprite atlasları paket dışında bırakılıyor ve düzenlenebilir varlıklar derleme sonrasında geri yükleniyor. |
+| Doğrulama ve sürüm hazırlığı | Unity Editör kontrolleri öğreticiyi, yerelleştirmeyi ve sandık davranışlarını kapsıyor. Git kontrolü, üretilen dosyaların ve yerel araç çıktılarının commit’e eklenmesini engelliyor. |
 
-Banyo etkileşimi, ödül akışı ve öğreticinin tasarım kararları [teknik incelemede](docs/engineering.tr.md) yer alıyor.
+Bu sistemlerin arkasındaki tasarım kararları [teknik incelemede](docs/engineering.tr.md) yer alıyor.
 
 ## Oyundan diğer görseller
 
