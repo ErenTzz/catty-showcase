@@ -8,7 +8,7 @@
 
 Kedinin bakımını yap, kısa arcade oyunları oyna ve kazandığın kaynaklarla kedinin ihtiyaçlarını karşıla veya yeni odalar aç.
 
-[**Google Play'de oyna**](https://play.google.com/store/apps/details?id=com.thehookgames.catty) · [**Oynanış demosu**](#oynanış-demosu) · [**Teknik inceleme**](docs/engineering.tr.md)
+[**Google Play'de oyna**](https://play.google.com/store/apps/details?id=com.thehookgames.catty) · [**Oynanış videoları**](#oynanış-demosu) · [**Teknik inceleme**](docs/engineering.tr.md)
 
 <img src="media/care.jpg" alt="Catty'nin odası ve bakım arayüzü" width="225" /> <img src="media/mini-game.jpg" alt="Yün engeller ve altın içeren dokunarak uçma oyunu" width="225" /> <img src="media/rooms.jpg" alt="Sera odasında Catty" width="225" />
 
@@ -22,18 +22,36 @@ Ben **Eren Toksöz**, Catty'nin Unity geliştiricisiyim. C# ile oynanış, mobil
 
 <table>
 <tr>
-<td width="42%" align="center"><a href="media/bath-gameplay.gif"><img src="media/bath-gameplay.gif" width="260" alt="Oyuncunun Catty'yi sabunladığı, duruladığı ve kuruladığı oynanış demosu" /></a></td>
-<td valign="top">
-
-**Banyo · 20 saniyelik oynanış kurgusu**
-
-Oyuncu Catty'yi sırasıyla sabunluyor, duruluyor ve kuruluyor. Dokunuşlar ekrandaki kir, köpük ve suyu değiştiriyor. İlerleme göstergesi, oyuncuya ne zaman araç değiştireceğini gösteriyor.
-
-Banyo, ana döngünün bir parçası. Oyuncular Catty'nin odasında bakımını yapıyor, mini oyunlarla kaynak kazanıyor ve ödülleri bakım veya oda özelleştirmesi için kullanıyor.
-
+<th align="center" width="25%">Banyo</th>
+<th align="center" width="25%">Paw Tap</th>
+<th align="center" width="25%">Dokunarak Uçuş</th>
+<th align="center" width="25%">Eşya Toplama</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/bath-gameplay.mp4"><img src="media/bath-gameplay.gif" width="175" alt="Catty’yi sabunla, durula ve kurula." /></a><br />
+Catty’yi sabunla, durula ve kurula.<br />
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/bath-gameplay.mp4"><strong>Videoyu izle (MP4)</strong></a>
+</td>
+<td align="center" valign="top">
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/paw-tap.mp4"><img src="media/paw-tap.gif" width="175" alt="Kombo yapmak için hedeflere zamanında dokun." /></a><br />
+Kombo yapmak için hedeflere zamanında dokun.<br />
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/paw-tap.mp4"><strong>Videoyu izle (MP4)</strong></a>
+</td>
+<td align="center" valign="top">
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/tap-to-fly.mp4"><img src="media/tap-to-fly.gif" width="175" alt="Yün engellerin arasından uçarak geç." /></a><br />
+Yün engellerin arasından uçarak geç.<br />
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/tap-to-fly.mp4"><strong>Videoyu izle (MP4)</strong></a>
+</td>
+<td align="center" valign="top">
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/item-collection.mp4"><img src="media/item-collection.gif" width="175" alt="Düşen bakım malzemelerini sepetle yakala." /></a><br />
+Düşen bakım malzemelerini sepetle yakala.<br />
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/item-collection.mp4"><strong>Videoyu izle (MP4)</strong></a>
 </td>
 </tr>
 </table>
+
+Mini oyun klipleri Unity’de otomatik girdilerle kaydedildi. Tüm MP4 videolar sessizdir.
 
 ## Teknik özellikler
 

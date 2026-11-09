@@ -8,7 +8,7 @@
 
 Care for a cat, play short arcade mini-games, and use what you earn to look after your pet and unlock new rooms.
 
-[**Play on Google Play**](https://play.google.com/store/apps/details?id=com.thehookgames.catty) · [**Watch the gameplay demo**](#gameplay-demo) · [**Read the engineering case study**](docs/engineering.md)
+[**Play on Google Play**](https://play.google.com/store/apps/details?id=com.thehookgames.catty) · [**Watch gameplay**](#gameplay-demo) · [**Read the engineering case study**](docs/engineering.md)
 
 <img src="media/care.jpg" alt="Catty's home and pet care interface" width="225" /> <img src="media/mini-game.jpg" alt="A tap-to-fly mini-game with yarn obstacles and a coin pickup" width="225" /> <img src="media/rooms.jpg" alt="Catty in the greenhouse room" width="225" />
 
@@ -22,18 +22,36 @@ I'm **Eren Toksöz**, the Unity developer behind Catty. My work spans C# gamepla
 
 <table>
 <tr>
-<td width="42%" align="center"><a href="media/bath-gameplay.gif"><img src="media/bath-gameplay.gif" width="260" alt="Gameplay demo showing the player soaping, rinsing, and drying Catty" /></a></td>
-<td valign="top">
-
-**Bath Time · 20-second edited gameplay capture**
-
-The player soaps, rinses, and dries Catty in sequence. Touch input changes the visible dirt, foam, and water, while progress feedback tells the player when to switch tools.
-
-The bath is one part of the loop. Players feed and care for Catty in the home hub, play arcade sessions to earn resources, and spend rewards on care or room customization.
-
+<th align="center" width="25%">Bath Time</th>
+<th align="center" width="25%">Paw Tap</th>
+<th align="center" width="25%">Tap to Fly</th>
+<th align="center" width="25%">Item Collection</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/bath-gameplay.mp4"><img src="media/bath-gameplay.gif" width="175" alt="Soap, rinse, and dry Catty." /></a><br />
+Soap, rinse, and dry Catty.<br />
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/bath-gameplay.mp4"><strong>Watch video (MP4)</strong></a>
+</td>
+<td align="center" valign="top">
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/paw-tap.mp4"><img src="media/paw-tap.gif" width="175" alt="Tap targets in time to build a combo." /></a><br />
+Tap targets in time to build a combo.<br />
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/paw-tap.mp4"><strong>Watch video (MP4)</strong></a>
+</td>
+<td align="center" valign="top">
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/tap-to-fly.mp4"><img src="media/tap-to-fly.gif" width="175" alt="Fly through gaps between yarn obstacles." /></a><br />
+Fly through gaps between yarn obstacles.<br />
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/tap-to-fly.mp4"><strong>Watch video (MP4)</strong></a>
+</td>
+<td align="center" valign="top">
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/item-collection.mp4"><img src="media/item-collection.gif" width="175" alt="Move the basket to catch falling supplies." /></a><br />
+Move the basket to catch falling supplies.<br />
+<a href="https://raw.githubusercontent.com/ErenTzz/catty-showcase/main/media/item-collection.mp4"><strong>Watch video (MP4)</strong></a>
 </td>
 </tr>
 </table>
+
+The mini-game clips were captured in Unity with automated inputs. All MP4 clips are silent.
 
 ## Engineering highlights
 
